@@ -2,13 +2,17 @@ body{
     background-color: hsl(210, 46%, 95%);
 }
 .container{
-    font-family: Barlow , Arial;
+    font-family: 'Barlow Semi Condensed';
     margin-top: 30px;
+    display: flex;
+    vertical-align: top;
+    gap: 20px;
+    justify-content: center;
 }
 .Daniel{
     background-color: hsl(263, 55%, 52%);
     width: 100%;
-    max-width: 600px;
+    max-width: 470px;
     border-radius: 10px;
     justify-content: center;
     align-content: center;
@@ -25,6 +29,7 @@ body{
     width: 100%;
     max-width: 40px;
     border-radius: 30px;
+    border: 2px solid white;
 }
 .username{
     margin-top: 0px;
@@ -37,19 +42,18 @@ body{
     font-size: 13px;
 }
 .bold-text{
-    font-size: 15px;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 .text{
     opacity: 50%;
     margin-top: 20px;
+    font-size: 13px;
 }
 .card1, .card2, .card4{
-    font-size: 13px;
     color: white;
 }
 .card3, .card5{
-    font-size: 13px;
     color: hsl(210, 46%, 95%)e;
 }
 .first-section{
@@ -58,7 +62,7 @@ body{
 }
 .Jonathan{
     width: 100%;
-    max-width: 280px;
+    max-width: 190px;
     background-color: hsl(217, 19%, 35%);
     height: 250px;
     padding: 20px 30px;
@@ -68,13 +72,13 @@ body{
 .second-section{
     margin-top: 20px;
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 .Jeanette{
     width: 100%;
-    max-width: 280px;
+    max-width: 180px;
     background-color:hsl(0, 0%, 100%);
-    height: 230px;
+    height: 220px;
     padding: 20px 30px;
     border-radius: 10px;
     box-shadow: 0rem 5px 10px hsl(229, 6%, 66%);
@@ -82,20 +86,83 @@ body{
 .Patrick{
     background-color: hsl(219, 29%, 14%);
     width: 100%;
-    max-width: 600px;
+    max-width: 470px;
     border-radius: 10px;
     padding: 20px 30px;
-    height: 230px;
+    height: 220px;
     box-shadow: 0rem 5px 10px hsl(229, 6%, 66%);
 }
 .Kira{
     width: 100%;
-    max-width: 280px;
+    max-width: 180px;
     background-color:hsl(0, 0%, 100%);
-    height: 540px;
+    height: 530px;
     padding: 20px 30px;
     border-radius: 10px;
-    margin-top: 20px;
-    margin-bottom: 30px;
     box-shadow: 0rem 5px 10px hsl(229, 6%, 66%);
+}
+@media (min-width: 375px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .first-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .second-section{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .Daniel{
+        background-color: hsl(263, 55%, 52%);
+        width: 100%;
+        max-width: 251px;
+        border-radius: 10px;
+        justify-content: center;
+        align-content: center;
+        padding: 20px 30px;
+        height: 390px;
+        box-shadow: 0rem 5px 10px hsl(229, 6%, 66%);
+    }
+    .Jonathan{
+        width: 100%;
+        max-width: 251px;
+        background-color: hsl(217, 19%, 35%);
+        height: 200px;
+        padding: 20px 30px;
+        border-radius: 10px;
+        box-shadow: 0rem 5px 10px hsl(229, 6%, 66%);
+    }
+    .Patrick{
+        background-color: hsl(219, 29%, 14%);
+        width: 100%;
+        max-width: 251px;
+        border-radius: 10px;
+        padding: 20px 30px;
+        height: 330px;
+        box-shadow: 0rem 5px 10px hsl(229, 6%, 66%);
+    }
+    .Jeanette{
+        width: 100%;
+        max-width: 251px;
+        background-color:hsl(0, 0%, 100%);
+        height: 190px;
+        padding: 20px 30px;
+        border-radius: 10px;
+        box-shadow: 0rem 5px 10px hsl(229, 6%, 66%);
+    }
+    .Kira{
+        width: 100%;
+        max-width: 251px;
+        background-color:hsl(0, 0%, 100%);
+        height: 400px;
+        padding: 20px 30px;
+        border-radius: 10px;
+        box-shadow: 0rem 5px 10px hsl(229, 6%, 66%);
+    }
 }
