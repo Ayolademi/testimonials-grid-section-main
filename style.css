@@ -19,6 +19,9 @@ body{
     padding: 20px 30px;
     height: 250px;
     box-shadow: 0rem 5px 10px hsl(229, 6%, 66%);
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: right 10% top;
 }
 .user-info{
     display: flex;
@@ -101,7 +104,7 @@ body{
     border-radius: 10px;
     box-shadow: 0rem 5px 10px hsl(229, 6%, 66%);
 }
-@media (min-width: 375px){
+@media (max-width: 600px){
     .container{
         display: flex;
         flex-wrap: wrap;
